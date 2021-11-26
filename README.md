@@ -17,7 +17,7 @@
   </ol>
 </details>
 
-### Core Tech Stack
+## Core Tech Stack
 
 ##### FANG
 * [FaunaDB](https://docs.fauna.com/fauna/current/)
