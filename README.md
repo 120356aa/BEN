@@ -30,6 +30,9 @@ To run this app locally simply run
 ```
 npm install
 ```
+```
+npm run start
+```
 
 Application will be running on `localhost:3000`
 
