@@ -10,7 +10,6 @@ const Layout = ({ children }) => (
       <meta name="description" content="Blockchain Exchange Network (BEN)" />
       <link rel="icon" href="/favicon.ico" />
     </Head>
-
     <AppWrap>
       <LeftNav />
       <main>

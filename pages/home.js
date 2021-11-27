@@ -1,6 +1,6 @@
 import Layout from "../components/layout/layout"
 
-export default function NewCampaign() {
+export default function Home() {
   return (
     <Layout>
 

@@ -6,17 +6,18 @@ import { Container } from './topNav.styled'
 import ArrowDown from '../../assets/icons/arrow-down.png'
 
 const TopNav = () => {
-  const router = useRouter()
-  const path = router.pathname
+  const { pathname } = useRouter()
 
   const [heading, setHeading] = useState('')
   const [notificationsToggle, setNotificationsToggle] = useState(false)
   const [accountToggle, setAccountToggle] = useState(false)
   
   useEffect(() => {
-    if (path === '/') setHeading('Profile')
-    if (path === '/campaigns') setHeading('Campaigns')
-    if (path === '/newCampaign') setHeading('New Campaign')
+    if (pathname === '/') setHeading('Home')
+    if (pathname === '/campaigns') setHeading('Campaigns')
+    if (pathname === '/newCampaign') setHeading('New Campaign')
+    if (pathname === '/wallet') setHeading('Wallet')
+    if (pathname === '/users') setHeading('Users')
   }, [])
 
   const handleNotificationsToggle = () => setNotificationsToggle(!notificationsToggle)

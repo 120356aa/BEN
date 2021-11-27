@@ -6,10 +6,11 @@ import { Container } from './leftNav.styled'
 import Logo from '../../assets/ben_logo_med.png'
 import HomeIcon from '../../assets/icons/home.png'
 import CampaignsIcon from '../../assets/icons/campaigns.png'
+import WalletIcon from '../../assets/icons/wallet.png'
+import UsersIcon from '../../assets/icons/users.png'
 
 export const LeftNav = () => {
-  const router = useRouter()
-  const path = router.pathname
+  const { pathname } = useRouter()
 
   return (
     <Container>
@@ -18,17 +19,29 @@ export const LeftNav = () => {
       </div>
       <nav>
         <Link href="/">
-          <div className={path === "/" ? 'link active-link' : 'link'}>
+          <div className={pathname === "/" ? 'link active-link' : 'link'}>
             <Image src={HomeIcon} alt="Home link icon" />
-            <p className={path === "/" ? 'label active-label' : 'label'}>Home</p>
+            <p className={pathname === "/" ? 'label active-label' : 'label'}>Home</p>
           </div>
         </Link>
         <Link href="/campaigns">
-          <div className={path === "/campaigns" || path === '/newCampaign' ? 'link active-link' : 'link'}>
+          <div className={pathname === "/campaigns" || pathname === '/newCampaign' ? 'link active-link' : 'link'}>
             <Image src={CampaignsIcon} alt="Campaigns link icon" />
-            <p className={path === "/campaigns" || path === '/newCampaign' ? 'label active-label' : 'label'}>Campaigns</p>
+            <p className={pathname === "/campaigns" || pathname === '/newCampaign' ? 'label active-label' : 'label'}>Campaigns</p>
           </div>
         </Link>
+        <Link href="/wallet">
+          <div className={pathname === "/wallet" ? 'link active-link' : 'link'}>
+            <Image src={WalletIcon} alt="Campaigns link icon" />
+            <p className={pathname === "/wallet" ? 'label active-label' : 'label'}>Wallet</p>
+          </div>
+        </Link>
+        <Link href="/users">
+          <div className={pathname === "/users" ? 'link active-link' : 'link'}>
+            <Image src={UsersIcon} alt="Campaigns link icon" />
+            <p className={pathname === "/users" ? 'label active-label' : 'label'}>Users</p>
+          </div>
+        </Link> 
       </nav>
     </Container>
   )

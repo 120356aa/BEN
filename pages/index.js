@@ -1,16 +1,15 @@
-import { useContext } from "react"
-import Layout from "../components/layout/layout"
+import { useContext, useEffect } from "react"
+import { useRouter } from "next/router"
 import { UserContext } from "../context/user.context"
+import Login from '../components/login/login'
 
-export default function Home() {
-  const { currentUser, status } = useContext(UserContext)
-  
-  const [user, setUser] = currentUser
-  const [signInStatus, setSigninStatus] = status
+export default function Index() {
+  const router = useRouter()
 
-  return (
-    <Layout>
+  const { status } = useContext(UserContext)
+  const [ signInStatus ] = status
 
-    </Layout>
-  )
+  useEffect(() => {( !signInStatus ? router.push('/home') : null )}, [])
+
+  return <Login />
 }
