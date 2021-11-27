@@ -8,8 +8,9 @@
   <ol>
     <li><a href="#core-tech-stack">Core Tech Stack</a></li>
     <li><a href="#installation">Installation</a></li>
+    <li><a href="#development">Development How To</a></li>
     <ul>
-      <li>How to</li>
+      <li><a href="">Creating New Components</a></li>
     </ul>
   </ol>
 </details>
@@ -24,7 +25,12 @@
 
 ## Installation
 To run this app locally simply run
-```npm install```
+```
+npm install
+```
+
 Application will be running on `localhost:3000`
+
+## Development How To
 
 <p align="right">(<a href="#top">back to top</a>)</p>
