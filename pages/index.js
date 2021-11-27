@@ -1,7 +1,7 @@
 import { useContext, useEffect } from "react"
 import { useRouter } from "next/router"
 import { UserContext } from "../context/user.context"
-import Login from '../components/login/login'
+import Landing from '../components/landing/landing'
 
 export default function Index() {
   const router = useRouter()
@@ -9,7 +9,7 @@ export default function Index() {
   const { status } = useContext(UserContext)
   const [ signInStatus ] = status
 
-  useEffect(() => {( !signInStatus ? router.push('/home') : null )}, [])
+  useEffect(() => {( signInStatus ? router.push('/home') : null )}, [])
 
-  return <Login />
+  return <Landing />
 }

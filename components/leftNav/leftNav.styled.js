@@ -15,7 +15,7 @@ export const Container = styled.nav`
 
   nav {
     align-self: flex-start;
-    margin: 20px 0 0 0;
+    margin: 40px 0 0 0;
     width: 100%;
 
     .link {
@@ -29,10 +29,7 @@ export const Container = styled.nav`
       font-weight: bold;
 
       :hover {
-        background-color: ${colors.greenHover};
-
         .label {
-          color: ${colors.white};
           opacity: 1;
         }
       }

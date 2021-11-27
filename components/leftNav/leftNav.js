@@ -32,13 +32,13 @@ export const LeftNav = () => {
         </Link>
         <Link href="/wallet">
           <div className={pathname === "/wallet" ? 'link active-link' : 'link'}>
-            <Image src={WalletIcon} alt="Campaigns link icon" />
+            <Image src={WalletIcon} alt="Wallet link icon" />
             <p className={pathname === "/wallet" ? 'label active-label' : 'label'}>Wallet</p>
           </div>
         </Link>
         <Link href="/users">
           <div className={pathname === "/users" ? 'link active-link' : 'link'}>
-            <Image src={UsersIcon} alt="Campaigns link icon" />
+            <Image src={UsersIcon} alt="Users link icon" />
             <p className={pathname === "/users" ? 'label active-label' : 'label'}>Users</p>
           </div>
         </Link> 
