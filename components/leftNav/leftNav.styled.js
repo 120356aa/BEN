@@ -50,7 +50,6 @@ export const Container = styled.nav`
 
     .active-link {
       background-color: ${colors.green};
-      border: 1px solid ${colors.green};
     }
   }
 `

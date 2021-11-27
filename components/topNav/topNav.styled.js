@@ -50,8 +50,7 @@ export const Container = styled.nav`
         width: 30px;
         height: 30px;
         border-radius: 50%;
-        background-color: ${colors.greenWhite};
-        border: 1px solid ${colors.green};
+        background-color: ${colors.greenShadow};
       }
 
       .p-notifications {
@@ -62,8 +61,8 @@ export const Container = styled.nav`
       }
 
       .avatar {
-        width: 40px; 
-        height: 40px;
+        width: 44px; 
+        height: 44px;
         border-radius: 50%;
         background-color: ${colors.green};
       }
