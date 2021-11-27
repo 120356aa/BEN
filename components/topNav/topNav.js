@@ -16,6 +16,7 @@ const TopNav = () => {
   useEffect(() => {
     if (path === '/') setHeading('Profile')
     if (path === '/campaigns') setHeading('Campaigns')
+    if (path === '/newCampaign') setHeading('New Campaign')
   }, [])
 
   const handleNotificationsToggle = () => setNotificationsToggle(!notificationsToggle)
@@ -25,7 +26,7 @@ const TopNav = () => {
     <Container>
         <h1>{heading}</h1>
         <nav> 
-          <Link href="/">
+          <Link href="/newCampaign">
               <p className="p-new-campaign">+ New Campaign</p>
           </Link>
           <button onClick={handleNotificationsToggle}>
