@@ -28,6 +28,7 @@ export const CampaignContextProvider = props => {
   const [callsInputToggle, setCallsInputToggle] = useState(false);
   const [webInputToggle, setWebInputToggle] = useState(false);
   const [popup, setPopup] = useState('');
+  
   return (
     <CampaignContext.Provider
       value={{
