@@ -24,6 +24,8 @@
 * [GraphQL](https://graphql.org/)
 
 ## Installation
+Add Twilio auth token to `env.local`
+
 To run this app locally simply run
 ```
 npm install
