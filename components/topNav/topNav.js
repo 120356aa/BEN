@@ -13,7 +13,7 @@ const TopNav = () => {
   const [accountToggle, setAccountToggle] = useState(false)
   
   useEffect(() => {
-    if (pathname === '/') setHeading('Home')
+    if (pathname === '/home') setHeading('Home')
     if (pathname === '/campaigns') setHeading('Campaigns')
     if (pathname === '/newCampaign') setHeading('New Campaign')
     if (pathname === '/wallet') setHeading('Wallet')
