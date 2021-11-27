@@ -29,7 +29,7 @@ export const Container = styled.nav`
       font-weight: bold;
 
       :hover {
-        background-color: ${colors.green};
+        background-color: ${colors.greenHover};
 
         .label {
           color: ${colors.white};

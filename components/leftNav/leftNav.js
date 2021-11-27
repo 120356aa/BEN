@@ -25,7 +25,7 @@ export const LeftNav = () => {
         </Link>
         <Link href="/campaigns">
           <div className={path === "/campaigns" ? 'link active-link' : 'link'}>
-            <Image src={CampaignsIcon} alt="Home link icon" />
+            <Image src={CampaignsIcon} alt="Campaigns link icon" />
             <p className={path === "/campaigns" ? 'label active-label' : 'label'}>Campaigns</p>
           </div>
         </Link>
