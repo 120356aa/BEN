@@ -1,6 +1,13 @@
+import { UserContextProvider } from '../context/user.context'
+import { CampaignContextProvider } from '../context/campaign.context'
 import '../styles/reset.css'
-import '../styles/globals.css'
 
 export default function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+    <UserContextProvider>
+      <CampaignContextProvider>
+        <Component {...pageProps} />
+      </CampaignContextProvider>
+    </UserContextProvider>
+  )
 }
