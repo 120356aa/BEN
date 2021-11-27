@@ -7,6 +7,5 @@ export const AppWrap = styled.main`
 
     main {
         width: 100%;
-        border: 1px solid green;
     }
 `
