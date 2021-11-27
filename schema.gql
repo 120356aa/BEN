@@ -1,0 +1,28 @@
+type Campaign {
+    name: String!
+    adType: String!
+    adAddress: String!
+    adNeighborhood: String!
+    adCity: String!
+    adRegion: String!
+    adCountry: String!
+    adPhone: String!
+    adWebsite: String!
+    appleLink: String!
+    googleLink: String!
+    offerType: String!
+    offerAmount: String!
+    offerAmountType: String!
+    offerHeadline: String!
+    offerStartDate: String!
+    offerEndDate: String!
+    offerAbout: String!
+    offerRequirements: String!
+    createDate: String!
+    editDate: String!
+    deleteDate: String!
+}
+
+type Query {
+    allCampaigns: [Campaign!]
+}
