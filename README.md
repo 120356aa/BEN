@@ -9,9 +9,9 @@
     <li><a href="#core-tech-stack">Core Tech Stack</a></li>
     <li><a href="#installation">Installation</a></li>
     <li><a href="#development">Development How To</a></li>
-    <ul>
-      <li><a href="">Creating New Components</a></li>
-    </ul>
+    <!-- <ul>
+      <li><a href="#creating-new-components">Creating New Components</a></li>
+    </ul> -->
   </ol>
 </details>
 
@@ -37,5 +37,6 @@ npm run start
 Application will be running on `localhost:3000`
 
 ## Development How To
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
