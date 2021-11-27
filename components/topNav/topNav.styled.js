@@ -7,7 +7,7 @@ export const Container = styled.nav`
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 40px 60px;
+  padding: 36px 60px;
   
   h1 {
     font-size: 34px;
@@ -41,10 +41,11 @@ export const Container = styled.nav`
       display: flex;
       align-items: center;
       justify-content: center;
-      margin: 0 30px;
       cursor: pointer;
 
-      :last-child { margin-left: 0; }
+      :nth-child(2) {
+        margin: 0 30px;
+      }
 
       .image-placeholder {
         width: 30px;
