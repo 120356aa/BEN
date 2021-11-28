@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import LeftNav from '../leftNav/leftNav'
-import TopNav from '../topNav/topNav'
-import { AppWrap } from './layout.styled'
+import LeftNav from './leftNav'
+import TopNav from './topNav'
+import { AppWrap } from '../styles/layout.styled'
 
 const Layout = ({ children }) => (
   <>

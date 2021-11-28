@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { colors } from '../../styles/vars'
+import { colors } from './vars'
 
 export const Container = styled.section`
   display: flex;

@@ -1,8 +1,8 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import { Container } from './landing.styled'
-import LogoImage from '../../assets/ben_logo_big.png'
-import HeroImage from '../../assets/hero-img.png'
+import { Container } from '../styles/landing.styled'
+import LogoImage from '../assets/ben_logo_big.png'
+import HeroImage from '../assets/hero-img.png'
 
 const Landing = () => {
   return (

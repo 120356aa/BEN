@@ -1,13 +1,13 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import { Container } from './leftNav.styled'
+import { Container } from '../styles/leftNav.styled'
 
-import Logo from '../../assets/ben_logo_med.png'
-import HomeIcon from '../../assets/icons/home.png'
-import CampaignsIcon from '../../assets/icons/campaigns.png'
-import WalletIcon from '../../assets/icons/wallet.png'
-import UsersIcon from '../../assets/icons/users.png'
+import Logo from '../assets/ben_logo_med.png'
+import HomeIcon from '../assets/icons/home.png'
+import CampaignsIcon from '../assets/icons/campaigns.png'
+import WalletIcon from '../assets/icons/wallet.png'
+import UsersIcon from '../assets/icons/users.png'
 
 export const LeftNav = () => {
   const { pathname } = useRouter()
@@ -18,7 +18,7 @@ export const LeftNav = () => {
         <Image src={Logo} alt="Blockchain Exchange Network (BEN) Logo" />
       </div>
       <nav>
-        <Link href="/">
+        <Link href="/home">
           <div className={pathname === "/home" ? 'link active-link' : 'link'}>
             <Image src={HomeIcon} alt="Home link icon" />
             <p className={pathname === "/home" ? 'label active-label' : 'label'}>Home</p>

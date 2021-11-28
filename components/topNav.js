@@ -2,8 +2,8 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/router'
-import { Container } from './topNav.styled'
-import ArrowDown from '../../assets/icons/arrow-down.png'
+import { Container } from '../styles/topNav.styled'
+import ArrowDown from '../assets/icons/arrow-down.png'
 
 const TopNav = () => {
   const { pathname } = useRouter()
