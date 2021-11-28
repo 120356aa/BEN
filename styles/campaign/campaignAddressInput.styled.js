@@ -10,7 +10,7 @@ export const Container = styled.div`
 
   .bg {
     opacity: 0.7;
-    background-color: #000000;
+    background-color: ${colors.black};
     width: 100%;
     height: 100%;
   }
@@ -22,7 +22,7 @@ export const Container = styled.div`
     left: 50%;
     transform: translateY(-10%);
     transform: translateX(-50%);
-    background-color: #FFFFFF;
+    background-color: ${colors.white};
     padding: 50px;
     border-radius: 20px;
 
@@ -62,8 +62,8 @@ export const Container = styled.div`
       .input {
         padding: 14px 16px;
         font-size: 15px;
-        color: #000000;
-        border: 1px solid #CCCCCC;
+        color: ${colors.black};
+        border: 1px solid ${colors.gray};
         width: 100%;
         border-radius: 10px;
         margin-bottom: 12px;

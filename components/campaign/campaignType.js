@@ -71,8 +71,8 @@ const CampaignType = () => {
       </div>
       <div className="content">
         { addressInputToggle ? <CampaignAddressInput setAddressInputToggle={setAddressInputToggle} /> : null }
-        { phoneInputToggle ? <CampaignPhoneInput /> : null }
-        { webInputToggle ? <CampaignWebInput /> : null }
+        { phoneInputToggle ? <CampaignPhoneInput setPhoneInputToggle={setPhoneInputToggle} /> : null }
+        { webInputToggle ? <CampaignWebInput setWebInputToggle={setWebInputToggle} /> : null }
         { missingErr ? <p className="form-error">Please select an option</p> : null }
         <div className="button-container">
           <button onClick={togglePhysical}>
