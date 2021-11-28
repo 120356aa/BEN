@@ -9,7 +9,7 @@ export const Container = styled.section`
 
   .heading {
     h2 {
-      font-size: 24px;
+      font-size: 22px;
       font-weight: bold;
       opacity: 0.8;
     }
