@@ -70,7 +70,7 @@ const CampaignType = () => {
         <h2>What are you looking to get out of your Radio Advertisement?</h2>
       </div>
       <div className="content">
-        { addressInputToggle ? <CampaignAddressInput /> : null }
+        { addressInputToggle ? <CampaignAddressInput setAddressInputToggle={setAddressInputToggle} /> : null }
         { phoneInputToggle ? <CampaignPhoneInput /> : null }
         { webInputToggle ? <CampaignWebInput /> : null }
         { missingErr ? <p className="form-error">Please select an option</p> : null }

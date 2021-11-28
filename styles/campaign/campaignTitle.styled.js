@@ -41,7 +41,7 @@ export const Container = styled.section`
       font-size: 15px;
       padding: 14px 14px;
       border-radius: 25px;
-      color: ${colors.white};
+      color: ${colors.black};
       border: 1px solid ${colors.gray};
       outline: none;
     }
