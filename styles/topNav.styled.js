@@ -12,7 +12,7 @@ export const Container = styled.nav`
   h1 {
     font-size: 34px;
     font-weight: bold;
-    opacity: 0.85;
+    opacity: 0.75;
   }
 
   nav {

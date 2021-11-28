@@ -5,7 +5,7 @@ export const Container = styled.section`
   margin: 20px 55px;
   padding: 45px;
   border-radius: 20px;
-  background-color: #FFFFFF;
+  background-color: ${colors.white};
 
   .heading {
     h2 {
@@ -38,12 +38,12 @@ export const Container = styled.section`
         justify-content: space-between;
         padding: 8px 12px;
         border-radius: 10px;
-        background-color: #FFFFFF;
-        border: 1px solid #ECECEC;
+        background-color: ${colors.white};
+        border: 1px solid ${colors.lightGray};
         cursor: pointer;
 
         :hover {
-          border: 1px solid #00A990;
+          border: 1px solid ${colors.green};
           .radioBtn{
             .hidden {
               visibility: visible;
@@ -75,7 +75,7 @@ export const Container = styled.section`
         }
 
           .radioBtn {
-            border: 1px solid #00A990;
+            border: 1px solid ${colors.green};
             border-radius: 50%;
             width: 20px;
             height: 20px;
@@ -87,8 +87,8 @@ export const Container = styled.section`
               width: 12px;
               height: 12px;
               border-radius: 50%;
-              border: 1px solid #00A990;
-              background-color: #00A990;
+              border: 1px solid ${colors.green};
+              background-color: ${colors.green};
             }
 
             .hidden {

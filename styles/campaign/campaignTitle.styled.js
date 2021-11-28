@@ -5,9 +5,9 @@ export const Container = styled.section`
   margin: 20px 55px;
   padding: 45px;
   border-radius: 20px;
-  background-color: #FFFFFF;
+  background-color: ${colors.white};
 
-  .heading {
+.heading {
     h2 {
       font-size: 22px;
       font-weight: bold;
@@ -16,10 +16,10 @@ export const Container = styled.section`
 
 
     p {
-        font-size: 13px;
-        opacity: 0.45;
-        padding: 14px 0;
-        line-height: 16px;
+      font-size: 13px;
+      opacity: 0.45;
+      padding: 14px 0;
+      line-height: 16px;
     }
   }
 
@@ -41,8 +41,8 @@ export const Container = styled.section`
       font-size: 15px;
       padding: 14px 14px;
       border-radius: 25px;
-      color: #000000;
-      border: 1px solid #CCCCCC;
+      color: ${colors.white};
+      border: 1px solid ${colors.gray};
       outline: none;
     }
 

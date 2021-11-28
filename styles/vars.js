@@ -5,4 +5,7 @@ export const colors = {
   greenShadow: '#D7F0EC',
   greenHover: '#009882',
   hoverGray: '#E7F5F0',
+  lightGray: '#ECECEC',
+  gray: '#CCCCCC',
+  black: '#000000',
 }
