@@ -28,7 +28,7 @@ export const Container = styled.nav`
       padding: 12px 40px;
       border: 1px solid ${colors.green};
       background-color: ${colors.green};
-      border-radius: 20px;
+      border-radius: 25px;
       
       :hover {
           background-color: ${colors.greenHover};
