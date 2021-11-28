@@ -52,8 +52,8 @@ const CampaignPhoneInput = ({ setPhoneInputToggle }) => {
               value={ context.adPhone[0] }
               onChange={(e) => handleSetAdPhone(e)} />  
           </div>
+          <NextButton onClick={handleSubmit}>Submit</NextButton>
         </div>
-        <NextButton onClick={handleSubmit}>Submit</NextButton>
       </div>
     </Container>
   )

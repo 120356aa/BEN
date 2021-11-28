@@ -16,21 +16,21 @@ export const Container = styled.div`
   }
   
   .content {
-    width: 400px;
+    width: 450px;
     position: absolute;
     top: 10%;
     left: 50%;
     transform: translateY(-10%);
     transform: translateX(-50%);
     background-color: ${colors.white};
-    padding: 50px;
+    padding: 40px;
     border-radius: 20px;
 
     h3 {
       font-size: 20px;
       text-align: center;
       font-weight: bold;
-      margin: 10px 0;
+      margin: 30px 0 0px 0;
       line-height: 28px;
       opacity: 0.85;
     }
@@ -66,6 +66,7 @@ export const Container = styled.div`
         align-items: center;
         width: 300px;
         padding: 8px;
+        margin: 0 0 10px 0;
         border: 1px solid ${colors.gray};
         border-radius: 25px;
 

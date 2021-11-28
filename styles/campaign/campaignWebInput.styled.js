@@ -23,7 +23,7 @@ export const Container = styled.div`
     transform: translateY(-10%);
     transform: translateX(-50%);
     background-color: ${colors.white};
-    padding: 50px;
+    padding: 50px 75px;
     border-radius: 20px;
     display: flex;
     flex-flow: column nowrap;
@@ -48,6 +48,10 @@ export const Container = styled.div`
       right: 30px;
       top: 30px;
       cursor: pointer;
+    }
+
+    .lower-form { 
+      margin-top: 20px;
     }
 
     .form {

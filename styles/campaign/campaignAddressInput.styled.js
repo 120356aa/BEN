@@ -23,7 +23,7 @@ export const Container = styled.div`
     transform: translateY(-10%);
     transform: translateX(-50%);
     background-color: ${colors.white};
-    padding: 50px;
+    padding: 50px 75px;
     border-radius: 20px;
 
     h3 {
