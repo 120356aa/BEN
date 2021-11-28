@@ -27,9 +27,12 @@ export const Container = styled.div`
     border-radius: 20px;
 
     h3 {
-      font-size: 18px;
+      font-size: 20px;
       text-align: center;
-      line-height: 22px;
+      font-weight: bold;
+      margin: 10px 0;
+      line-height: 28px;
+      opacity: 0.85;
     }
 
     .exit-button {

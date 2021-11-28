@@ -31,9 +31,12 @@ export const Container = styled.div`
     justify-content: center;
 
     h3 {
-      font-size: 18px;
+      font-size: 20px;
       text-align: center;
-      line-height: 22px;
+      font-weight: bold;
+      margin: 10px 0 0 0;
+      line-height: 28px;
+      opacity: 0.85;
     }
 
     .exit-button {
@@ -53,6 +56,11 @@ export const Container = styled.div`
       align-items: center;
       flex-flow: column nowrap;
       padding: 30px 0 15px 0;
+
+      h5 {
+        font-weight: bold;
+        opacity: 0.75;
+      }
 
       .form-error {
         font-size: 14px;

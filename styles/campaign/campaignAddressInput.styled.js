@@ -29,6 +29,10 @@ export const Container = styled.div`
     h3 {
       font-size: 20px;
       text-align: center;
+      font-weight: bold;
+      margin: 10px 0;
+      line-height: 28px;
+      opacity: 0.85;
     }
 
     .exit-button {
