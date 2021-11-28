@@ -15,7 +15,7 @@ export const Container = styled.nav`
 
   nav {
     align-self: flex-start;
-    margin: 40px 0 0 0;
+    margin: 30px 0 0 0;
     width: 100%;
 
     .link {
