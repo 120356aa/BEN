@@ -27,16 +27,18 @@ const TopNav = () => {
 
   const handleNewCampaign = () => {
     if (router.pathname === '/newCampaign') context.page[1](1)
-    else router.push('/newCampaign')
+    else {
+      context.page[1](1)
+      router.push('/newCampaign')
+    }
+    
   }
 
   return (
     <Container>
       <h1>{heading}</h1>
       <nav>
-        { router.pathname != '/newCampaign' ? (
-          <button onClick={handleNewCampaign} className="p-new-campaign">+ New Campaign</button>
-        ) : null }
+        <button onClick={handleNewCampaign} className="p-new-campaign">+ New Campaign</button>
         <button onClick={handleNotificationsToggle}>
           <div className="image-placeholder"></div>
           <p className="p-notifications">Notifications</p>

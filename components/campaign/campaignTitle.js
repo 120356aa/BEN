@@ -49,6 +49,7 @@ const CampaignTitle = () => {
           type="text"
           placeholder="Enter your ad name here..."
           onChange={(e) => handleInput(e)}
+          value={context.adName[0]}
         />
       </div>
       <NextButton onClick={handleNext}>Next</NextButton>
